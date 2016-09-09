@@ -17,6 +17,7 @@ var ngModule = angular.module('angular-oauth2', [
   .factory('oauthInterceptor', oauthInterceptor)
   .provider('OAuth', OAuthProvider)
   .provider('OAuthToken', OAuthTokenProvider)
+  .name
 ;
 
 /**
